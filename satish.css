@@ -1,0 +1,154 @@
+/*---------------------Satish Profile----------------------*/
+.profile{
+    height: 370px;
+    width: 275px;
+    margin: 5px 0 0 0;
+}
+.name{
+    height: 45px;
+    width:  275px;
+}
+.prosatish{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin: 0 0 8px 5px;
+    display: inline-block;
+    background-image: url("image/satish.jpg");
+    background-size: cover;
+}
+.update{
+    height: 45px;
+    width:  160px;
+    display: inline-block;
+}
+.pro{
+    color:rgb(139, 139, 139);
+}
+.update p{
+    font-size: 80%;
+    margin: 2px 0 0 0;
+}
+/*---------------------Satish Profile Symbols----------------------*/
+.symbol{
+    height: 45px;
+    width:  67px;
+    float: right;
+}
+.elips{
+    height: 20px;
+    width:  20px;
+    display: inline-block;
+    margin: 2px 0 0 10px;
+}
+.wrong{
+    height: 20px;
+    width:  20px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+}
+#photo{
+    height: 230px;
+    width:  230px;
+    border-radius:  110px;
+    margin: auto;
+    margin-top: 28px;
+    background-image: url("image/satish.jpg");
+    background-size: cover;
+    display: block;
+}
+#photo1{
+    height: 230px;
+    width: auto;
+    margin: auto;
+    margin-top: 28px;
+    background-image: url("image/satish.jpg");
+    background-size: cover;
+    display: none;
+}
+/*---------------------racts and comments----------------------*/
+.react{
+    height: 25px;
+    width:  275px;
+    margin: 15px 0 0 0;
+}
+.love{
+    height: 25px;
+    width:  25px;
+    display: inline-block;
+}
+.person{
+    height: 25px;
+    width:  145px;
+    display: inline-block;
+    margin-left: -5px;
+}
+.person p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+}
+.fa-heart{
+    color: red;
+    margin-left: 5px;
+}
+.comments{
+    height: 25px;
+    width:  96px;
+    display: inline-block;
+}
+.comments p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin-left: 27px ;
+}
+
+/*---------------------Like and Share Satish Profile-------------*/
+.lcs{
+    height: 25px;
+    width:  275px;
+    border-top: 1px solid rgb(189, 189, 189);
+    margin-top: 10px;
+}
+.like{
+    height: 15px;
+    width:  60px;
+    display: inline-block;
+    margin: 5px 0 0 15px;
+}
+.like p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 27px ;
+}
+.fa-thumbs-up{
+    color: blue;
+}
+.cmnt{
+    height: 15px;
+    width:  70px;
+    display: inline-block;
+    margin: 5px 0 0 20px;
+}
+.cmnt p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 20px ;
+}
+.cmnt:hover{
+    color: blue;
+}
+/*--------------------- Share Satish Profile-------------*/
+#share{
+    height: 15px;
+    width:  55px;
+    display: inline-block;
+    margin: 5px 0 0 30px;
+}
+#share p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 20px ;
+}
+#share:hover{
+    color: blue;
+}

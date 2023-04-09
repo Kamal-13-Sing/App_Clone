@@ -1,0 +1,265 @@
+/*-------------------------Mbile screen body ----------------*/
+.mobile{
+    border: 1px solid black;
+    height: 597px;
+    width: 276px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    box-shadow: 1px 1px 5px;
+}
+/*-------------------------screen----------------*/
+.screentop{
+    border: 1px solid black;
+    height: 35px;
+    width: 275px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    overflow-x:hidden;
+    border-bottom: none;
+}
+.screenbody{
+    border: 1px solid black;
+    height: 560px;
+    width: 275px;
+    margin: auto;
+    overflow-x:hidden;
+    border-top: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/*--------------------Notch----------------------*/
+.notch{
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius:  0 0 13px 13px;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    position:sticky;
+}
+.cam{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 80px;
+    background-image: url("image/camera.png");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+/*--------------------Time----------------------*/
+.time{
+    height: 20px;
+    width: 70px;
+    border-radius:15px 0 0 0;
+    margin:-20px 0 0 12px;
+}
+.time p{
+    font-size:smaller;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.line{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+.line2{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+
+/*--------------------Power----------------------*/
+.power{
+    height: 20px;
+    width: 70px;
+    margin: -20px 13px 0 0;
+    float: right;
+}
+.tower{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+.wifi{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+}
+.battery{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    border-radius: 0 5px 0 0;
+}
+
+/*---------------------menubar----------------------*/
+.menu{
+    height: 30px;
+    width: 275px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+.home{
+    height:30px;
+    width:30px;
+    display: inline-block;
+    margin: 0 13px 0 3px;
+    text-align: center;
+}
+.home a{
+    color: black;
+}
+.home a:hover{
+    color: blue;
+}
+
+.video{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.video a{
+    color: rgb(0, 0, 0);
+}
+.video a:hover{
+    color: blue;
+} 
+.store{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.store a{
+    color: black;
+}
+.store a:hover{
+    color: blue;
+}
+.fa-play{
+    color: blue;
+}
+.table{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.table a{
+    color: black;
+}
+.table a:hover{
+    color: blue;
+}
+.notification{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.notification a{
+    color: black;
+}
+.notification a:hover{
+    color: blue;
+}
+.menubar{
+    height:22px;
+    width: 23px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url("image/imoji.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.fa-bars{
+    visibility: hidden;
+}
+/*-------------------Watch and Search-----------*/
+.watch{
+    height: 95px;
+    width: auto;
+    border-top: 1px solid rgb(189, 189, 189);
+}
+.watch p{
+    margin:  10px 0 0 8px;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.watched{
+    height: 20px;
+    width: 20px;
+    margin: -20px 0 0 208px;
+    cursor: pointer;
+}
+
+.srch{
+    height: 20px;
+    width: 20px;
+    margin: -20px 0 0 238px;
+    cursor: pointer;
+}
+
+/*---------------------Screen Footer----------------------*/
+.footer{
+    height: 32px;
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 0 0 33px 33px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 5px;
+}
+.cach{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 3px 0 0 60px;
+}
+.fa-square{
+    color: rgb(189, 189, 189);
+}
+.hom{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-circle{
+    color: rgb(189, 189, 189);
+    margin: 6px 0 0 5px ;
+}
+.back{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-square-caret-left{
+    color: rgb(189, 189, 189);
+    margin-left: 5px ;
+}

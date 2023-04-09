@@ -1,0 +1,430 @@
+/*-------------------------Mbile screen body ----------------*/
+.mobile{
+    border: 1px solid black;
+    height: 597px;
+    width: 276px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    box-shadow: 1px 1px 5px;
+}
+/*-------------------------screen----------------*/
+.screentop{
+    border: 1px solid black;
+    height: 35px;
+    width: 275px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    overflow-x:hidden;
+    border-bottom: none;
+}
+.screenbody{
+    border: 1px solid black;
+    height: 560px;
+    width: 275px;
+    margin: auto;
+    overflow-x:hidden;
+    border-top: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/*--------------------Notch----------------------*/
+.notch{
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius:  0 0 13px 13px;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    position:sticky;;
+}
+.cam{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 80px;
+    background-image: url("image/camera.png");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+/*--------------------Time----------------------*/
+.time{
+    height: 20px;
+    width: 70px;
+    border-radius:15px 0 0 0;
+    margin:-20px 0 0 12px;
+}
+.time p{
+    font-size:smaller;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.line{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+.line2{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+
+/*--------------------Power----------------------*/
+.power{
+    height: 20px;
+    width: 70px;
+    margin: -20px 13px 0 0;
+    float: right;
+}
+.tower{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+.wifi{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+}
+.battery{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    border-radius: 0 5px 0 0;
+}
+
+
+/*--------------------------facebook----------------*/
+.facebook{
+    height: 25px;
+    width: 275px;
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+
+.logo{
+    height:25px;
+    width: 100px;
+    display: inline-block;
+}
+.logo img{
+    height:27px;
+    width: 100px;
+    margin: -5px 0 0 0;
+}
+.messanger{
+    height:25px;
+    width: 30px;
+    float: right;
+    margin: 0 5px 0 0;
+    text-align: center;
+}
+.messanger:hover{
+    color: blue;
+ }
+.search{
+    height:25px;
+    width: 30px;
+    float: right;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.search:hover{
+    color: blue;
+ }
+/*---------------------menubar----------------------*/
+.menu{
+    height: 30px;
+    width: 275px;
+    margin: 12px 0 0 0;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+.home{
+    height:30px;
+    width:30px;
+    display: inline-block;
+    margin: 0 13px 0 3px;
+    text-align: center;
+}
+.home a{
+    color: black;
+}
+.home a:hover{
+    color: blue;
+}
+
+.video{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.video a{
+    color: black;
+}
+.video a:hover{
+    color: blue;
+}
+.store{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.store a{
+    color: black;
+}
+.store a:hover{
+    color: blue;
+}
+.table{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.table a{
+    color: black;
+}
+.table a:hover{
+    color: blue;
+}
+.notification{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.notification a{
+    color: black;
+}
+.notification a:hover{
+    color: blue;
+}
+.menubar{
+    height:22px;
+    width: 23px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url("image/imoji.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.fa-bars{
+    visibility: hidden;
+}
+/*---------------------Staus write----------------------*/
+.status{
+    height: 40px;
+    width:275px;
+    border-top: 1px solid rgb(143, 143, 143);
+    display: inline-block;
+}
+.emoji{
+    height: 40px;
+    width:40px;
+    display: inline-block;
+}
+.emoji img{
+    height: 30px;
+    width:30px;
+    margin: 5px 0 0 3px;
+}
+.mind{
+    height: 40px;
+    width:30px;
+    float: right;
+    width: 230px;
+}
+input[type=text]{
+    height: 22px;
+    width:210px;
+    border-radius: 15px;
+    border: 1px solid rgb(143, 143, 143);
+    margin: 6px 0 0 3px;
+}
+/*---------------------Stories----------------------*/
+.story{
+    height: 160px;
+    width: 275px;
+}
+/*---------------------create Stories----------------------*/
+.create{
+    height: 145px;
+    width: 73px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    margin:6px 0 0 7px;
+    float: left;
+}
+.create img{
+    height:90px;
+     width:72px;
+     border-radius: 10px;
+     z-index: 1;
+}
+.puls{
+    height: 25px;
+    width: 27px;
+    background-image: url("image/plus.png");
+    background-size: cover;
+    margin: -15px 0 0 22px;
+    position: relative;
+    z-index: 2;
+} 
+.text{
+    height: 20px;
+    width: 65px;
+    margin: 5px 0 0 0;
+}
+.text p{
+    font-size:x-small;
+    margin: 27px 0 0 10px;
+}
+/*---------------------Milan Stories----------------------*/
+.milan{
+    height: 145px;
+    width: 73px;
+    border: 1px solid rgb(189, 189, 189);
+    display: inline-block;
+    margin: 6px 0 0 4px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+}
+.promilan{
+    height: 27px;
+    width: 27px;
+    border-radius: 20px;
+    margin: 5px 0 0 5px;
+    background-image: url("image/milan.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    border: 1px solid blue;
+}
+.str{
+    height: 115px;
+    width: 60px;
+    margin: -16px 0 0 11px;
+    background-image: url("image/milstory.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+/*---------------------Sarmila Stories----------------------*/
+.sarmila{
+    height: 145px;
+    width: 73px;
+    border: 1px solid rgb(189, 189, 189);
+    display: inline-block;
+    margin: 6px 0 0 0;
+    border-radius: 10px;
+    background-image: url("image/sarstory.jpg");
+    background-size: cover;
+}
+.prosarmila{
+    height: 27px;
+    width: 27px;
+    border-radius: 20px;
+    margin: 5px 0 0 5px;
+    background-image: url("image/sarmila.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    border: 1px solid blue;
+}
+.nme2{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    float: left;
+    margin: 80px 0 0 15px;
+}
+.nme2 p{
+    font-size: smaller;
+    color: whitesmoke;
+}
+/*---------------------Anzan Stories----------------------*/
+.anzan{
+    height: 145px;
+    width: 30px;
+    border: 1px solid rgb(189, 189, 189);
+    border-right: none;
+    display: inline-block;
+    margin: 6px 0 0 0;
+    border-radius: 10px 0 0 10px;
+    background-image: url("image/door.png");
+}
+.proanzan{
+    height: 27px;
+    width: 24px;
+    border: 1px solid blue;
+    border-radius: 20px 7px 7px 20px;
+    margin: 5px 0 0 5px;
+    border-right: none;
+    background-image: url("image/anzan.jpg");
+    background-size:cover;
+}
+
+/*---------------------Screen Footer----------------------*/
+.footer{
+    height: 32px;
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 0 0 33px 33px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 5px;
+}
+.cach{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 3px 0 0 60px;
+}
+.fa-square{
+    color: rgb(189, 189, 189);
+}
+.hom{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-circle{
+    color: rgb(189, 189, 189);
+    margin: 6px 0 0 5px ;
+}
+.back{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-square-caret-left{
+    color: rgb(189, 189, 189);
+    margin-left: 5px ;
+}

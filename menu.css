@@ -1,0 +1,684 @@
+/*-------------------------Mbile screen body ----------------*/
+.mobile{
+    border: 1px solid black;
+    height: 597px;
+    width: 276px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    box-shadow: 1px 1px 5px;
+}
+/*-------------------------screen----------------*/
+.screentop{
+    border: 1px solid black;
+    height: 35px;
+    width: 275px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    overflow-x:hidden;
+    border-bottom: none;
+}
+.screenbody{
+    border: 1px solid black;
+    height: 560px;
+    width: 275px;
+    margin: auto;
+    overflow-x:hidden;
+    border-top: none;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/*--------------------Notch----------------------*/
+.notch{
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius:  0 0 13px 13px;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    position:sticky;;
+}
+.cam{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 80px;
+    background-image: url("image/camera.png");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+/*--------------------Time----------------------*/
+.time{
+    height: 20px;
+    width: 70px;
+    border-radius:15px 0 0 0;
+    margin:-20px 0 0 12px;
+}
+.time p{
+    font-size:smaller;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.line{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+.line2{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+}
+
+/*--------------------Power----------------------*/
+.power{
+    height: 20px;
+    width: 70px;
+    margin: -20px 13px 0 0;
+    float: right;
+}
+.tower{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+.wifi{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+}
+.battery{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    border-radius: 0 5px 0 0;
+}
+
+/*---------------------menubar----------------------*/
+.menu{
+    height: 30px;
+    width: 275px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position:sticky;
+    top: 0;
+    z-index: 3;
+}
+.home{
+    height:30px;
+    width:30px;
+    display: inline-block;
+    margin: 0 13px 0 3px;
+    text-align: center;
+}
+.home a{
+    color: black;
+}
+.home a:hover{
+    color: blue;
+}
+
+.video{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.video a{
+    color: black;
+}
+.video a:hover{
+    color: blue;
+}
+.store{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.store a{
+    color: black;
+}
+.store a:hover{
+    color: blue;
+}
+.table{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.table a{
+    color: black;
+}
+.table a:hover{
+    color: blue;
+}
+.notification{
+    height:30px;
+    width: 30px;
+    display: inline-block;
+    margin: 0 13px 0 0;
+    text-align: center;
+}
+.notification a{
+    color: black;
+}
+.notification a:hover{
+    color: blue;
+}
+.menubar{
+    height:22px;
+    width: 23px;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url("image/imoji.jpg");
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.fa-bars{
+    visibility: hidden;
+}
+/*------------------- MenuBar Settings and search------------*/
+.setting{
+    height: 25px;
+    width: auto;
+    border-top: 1px solid rgb(139, 139, 139);
+    background-color: whitesmoke;
+}
+.photo{
+    height: 25px;
+    width: 70px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+.photo img{
+    height: 20px;
+    width: 60px;
+    margin-top: 3px;
+}
+.search{
+    height: 20px;
+    width: 50px;
+    display: inline-block;
+    margin: 0 0 0 135px;
+}
+.fa-magnifying-glass{
+    margin-left: 9px;
+    cursor: pointer;
+}
+/*---------------------Menu profile line----------------------*/
+.profile{
+    height: 40px;
+    width: auto;
+    background-color: whitesmoke;
+}
+.image img{
+    height: 30px;
+    width: 30;
+    border-radius: 20px;
+    margin: 5px 0 0 8px;
+    cursor: pointer;
+}
+.sinjali{
+    height: 40px;
+    width: 150px;
+    margin: -50px 0 0 48px;
+}
+.see{
+    color: rgb(139, 139, 139);
+    margin: -18px 0 0 0;
+    font-size: smaller;
+}
+.text{
+    height: 20px;
+    width: auto;
+    border-top: 1px solid rgb(232, 232, 232); 
+    background-color: whitesmoke;
+}
+.text p{
+    margin: 2px 0 0 8px;
+    font-size: smaller;
+    cursor: pointer;
+}
+/*--------------------Menu profile shortcuts----------------------*/
+.shortcuts{
+    height: 90px;
+    width: auto;
+    background-color: whitesmoke;
+}
+/*--------------------Msecurity Shortcuts---------------------*/
+.msecurity{
+    height: 90px;
+    width: 70px;
+    margin: 0 0 0 20px;
+    display:inline-block;
+    cursor: pointer;
+}
+.msecurity img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px;
+    margin-top: 2px;
+}
+.flag{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin:-20px 5px 0 0;
+    float: right;
+    position: relative;
+    z-index:1;
+    box-shadow: 0px 0px 4px;
+}
+.fa-font-awesome{
+    color: rgb(0, 0, 255);
+    margin: 5px 0 0 5px;
+}
+.pp{
+    height: 10px;
+    width:20px;
+    text-align: center;
+    margin-top:-12px;
+}
+.pp p{
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*--------------------Bings Shortcuts---------------------*/
+.bing{
+    height: 90px;
+    width: 70px;
+    margin: 0 0 0 8px;
+    display:inline-block;
+    cursor: pointer;
+}
+.bing img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px; 
+}
+.fa-people-group{
+    color: rgb(0, 0, 255);
+    margin: 5px 0 0 2px;
+}
+.pb{
+    height: 10px;
+    width:20px;
+    text-align: center;
+    margin:-12px 0 0 10px;
+}
+.pb p{
+    font-size: small;
+    font-family:Sans-serif;
+}
+
+/*--------------------RONB Shortcuts---------------------*/
+.ronb{
+    height: 90px;
+    width: 70px;
+    margin: 0 0 0 8px;
+    display:inline-block;
+    cursor: pointer;
+}
+.ronb img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px;  
+}
+/*--------------------Menu for All shortcuts----------------------*/
+#allshort{
+    height: 300px;
+    width: auto;
+    background-color: whitesmoke;
+    display: block;
+}
+/*--------------------Menu for saved and memories----------------------*/
+.sm{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.saved{
+    height: 53px;
+    width:118px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 0 0 0 10px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px;
+}
+.saved:hover{
+    background-color: rgb(0, 225, 255);
+    box-shadow: 2px 2px 4px;
+}
+.fa-bookmark{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 16px;
+}
+.smsg{
+    height: 30px;
+    width: 60px;
+    margin: -13px 0 0 12px;
+}
+.memories{
+    height: 53px;
+    width:118px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 0 0 0 8px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px;
+    
+}
+.memories:hover{
+    background-color: rgb(0, 225, 255);
+    box-shadow: 2px 2px 4px;
+}
+.fa-clock{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu for Feeds and Friends----------------------*/
+.ff{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-business-time{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+
+.fa-people-line{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu for Group and Marketplace----------------------*/
+.gm{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-users-line{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-store{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu for videos and page----------------------*/
+.vp{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-youtube{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-flag{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu for Events and Gaming----------------------*/
+.eg{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-calendar-days{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-gamepad{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu for hidden----------------------*/
+#hidemenu{
+    height: 180px;
+    width: auto;
+    display: none;
+    background-color: whitesmoke;
+}
+/*-------------Menu for Avatars and Facebook-------------------*/
+.af{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-face-laugh{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-credit-card{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*-------------Menu for Fantasy and Live-------------------*/
+.fl{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-trophy{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-google-play{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*-------------Menu for Stories and offer-------------------*/
+.ms{
+    height: 60px;
+    width: auto;
+    cursor: pointer;
+}
+.fa-book-open{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+.fa-gift{
+    color: rgb(82, 70, 255);
+    margin: 10px 0 0 18px;
+}
+/*--------------------Menu profile See More----------------------*/
+#seemore{
+    height: 23px;
+    width: 248px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    margin: 10px 0 0 10px;
+    border-radius: 8px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+#seemore:hover{
+    background-color: rgb(255, 111, 219);
+}
+#seeless{
+    height: 23px;
+    width: 248px;
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    margin: 10px 0 0 10px;
+    border-radius: 8px;
+    border: none;
+    display:none;
+    cursor: pointer;
+}
+#seeless:hover{
+    background-color: rgb(255, 111, 219);
+}
+/*-------------------Log Out Page---------------------*/
+.community{
+    height:33px;
+    width: auto;
+    border-top: 1px solid rgb(216, 216, 216);
+    margin: 10px 0 0 0;
+    background-color: whitesmoke;
+}
+.fa-handshake{
+    color: rgb(94, 94, 94);
+    margin: 8px 0 0 10px;
+    cursor: pointer;
+}
+.community p{
+    margin: -19px 0 0 40px;
+}
+.resource{
+    height:20px;
+    width: 20px;
+    float: right;
+    margin: -15px 0 0 0;
+    cursor: pointer;
+}
+/*-------------------Help and support---------------------*/
+#help{
+    height:33px;
+    width: auto;
+    border-top: 1px solid rgb(216, 216, 216);
+    background-color: whitesmoke;
+}
+.fa-hire-a-helper{
+    color: rgb(94, 94, 94);
+    margin: 8px 0 0 10px;
+    cursor: pointer;
+}
+#help p{
+    margin: -19px 0 0 40px;
+}
+/*---------------------Menu of Help center---------------*/
+#helpcentre{
+    height: 110px;
+    width: auto;
+    background-color: whitesmoke;
+    display: none;
+}
+/*---------------------Menu of Help And center---------------*/
+.Help{
+    height:33px;
+    width: 258px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius:7px;
+    box-shadow: 1px 1px 4px;
+    margin-bottom: 4px;
+}
+.fa-phone-volume{
+    color: rgb(39, 39, 39);
+    margin: 8px 0 0 3px;
+    cursor: pointer;
+}
+.Help p{
+    margin: -19px 0 0 40px;
+}
+.Help:hover{
+    background-color:rgb(127, 251, 255);
+}
+/*---------------------Menu of Report and Problem---------------*/
+.fa-triangle-exclamation{
+    color: rgb(39, 39, 39);
+    margin: 8px 0 0 3px;
+    cursor: pointer;
+}
+/*---------------------Menu of Terms and Policies---------------*/
+.fa-book{
+    color: rgb(39, 39, 39);
+    margin: 8px 0 0 3px;
+    cursor: pointer;
+}
+/*-------------------Settingd and privacy--------------------*/
+.settings{
+    height:33px;
+    width: auto;
+    border-top: 1px solid rgb(216, 216, 216);
+    background-color: whitesmoke;
+}
+.fa-gears{
+    color: rgb(94, 94, 94);
+    margin: 8px 0 0 10px;
+    cursor: pointer;
+}
+.settings p{
+    margin: -19px 0 0 40px;
+}
+/*------------------Log-Out---------------------*/
+.logout{
+    height: 23px;
+    width: auto;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+.logout p{
+    margin:6px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+/*---------------------Screen Footer----------------------*/
+.footer{
+    height: 32px;
+    width: 275px;
+    border: 1px solid black;
+    border-radius: 0 0 33px 33px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 5px;
+}
+.cach{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 3px 0 0 60px;
+}
+.fa-square{
+    color: rgb(189, 189, 189);
+}
+.hom{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-circle{
+    color: rgb(189, 189, 189);
+    margin: 6px 0 0 5px ;
+}
+.back{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-square-caret-left{
+    color: rgb(189, 189, 189);
+    margin-left: 5px ;
+}

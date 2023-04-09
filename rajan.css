@@ -1,0 +1,356 @@
+/*---------------------Rajan Ad Profile----------------------*/
+.line26{
+    height: 8px;
+    width: auto;
+    background-color: rgb(180, 180, 180);
+    margin-top: 90px;
+}
+.profile26{
+    height: 370px;
+    width: 275px;
+    margin: 5px 0 0 0;
+}
+.name26{
+    height: 45px;
+    width:  275px;
+}
+.prorajan{
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    margin: 0 0 8px 5px;
+    display: inline-block;
+    background-image: url("image/rajan.jpg");
+    background-size: cover;
+}
+.update26{
+    height: 45px;
+    width:  160px;
+    display: inline-block;
+}
+.pro{
+    color:rgb(139, 139, 139);
+}
+.update26 p{
+    font-size: 80%;
+    margin: 2px 0 0 0;
+}
+/*---------------------Rajan Ad Profile Symbols----------------------*/
+.symbol{
+    height: 45px;
+    width:  67px;
+    float: right;
+}
+.elips{
+    height: 20px;
+    width:  20px;
+    display: inline-block;
+    margin: 2px 0 0 10px;
+}
+.wrong{
+    height: 20px;
+    width:  20px;
+    display: inline-block;
+    margin: 0 0 0 8px;
+}
+.photo26{
+    height: 250px;
+    width:  250px;
+    margin: auto;
+    margin-top: 28px;
+    background-size: cover;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 15px;
+}
+.up{
+    height: 50px;
+    width:  250px;
+    border-bottom: 1px solid rgb(139, 139, 139);
+    border-radius: 15px 15px 0 0;
+}
+/*---------------------Rajan Ad Share Video----------------------*/
+.videorajan{
+    height: 199px;
+    width: 250px;
+    border-radius: 0 0 15px 15px ;
+    background-color: rgb(141, 228, 255);
+}
+.propage{
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    margin: 5px 0 8px 5px;
+    display: inline-block;
+    background-image: url("image/page.jpg");
+    background-size: cover;
+}
+/*---------------------racts and comments----------------------*/
+.react{
+    height: 25px;
+    width:  275px;
+    margin: 15px 0 0 0;
+}
+.love{
+    height: 25px;
+    width:  25px;
+    display: inline-block;
+}
+.person{
+    height: 25px;
+    width:  145px;
+    display: inline-block;
+    margin-left: -5px;
+}
+.person p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+}
+.fa-heart{
+    color: red;
+    margin-left: 5px;
+}
+.comments{
+    height: 25px;
+    width:  96px;
+    display: inline-block;
+}
+.comments p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin-left: 27px ;
+}
+/*---------------------Like and Share Rajan Profile-------------*/
+/*-------------------------------------Like-------------------*/
+.div1{
+    height: 25px;
+    width:  105px;
+    margin: 15px 0 0 0;
+    border-top: 1px solid rgb(139, 139, 139);
+    cursor: pointer;
+}
+#like{
+    height: 15px;
+    width:  60px;
+    display: inline-block;
+    margin: 5px 0 0 15px;
+    display: block;
+}
+#like p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 27px ;
+}
+#love{
+    height: 15px;
+    width:  60px;
+    display: inline-block;
+    margin: 5px 0 0 15px;
+    display: none;
+}
+#love p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 27px ;
+}
+.fa-thumbs-up{
+    color: blue;
+}
+/*----------------------Comments and Share----------------*/
+.div2{
+    height: 25px;
+    width:  170px;
+    margin: 15px 0 0 0;
+    border-top: 1px solid rgb(139, 139, 139);
+    float: right;
+    margin-top:-26px;
+    cursor: pointer;
+}
+.cmntr{
+    height: 15px;
+    width:  70px;
+    display: inline-block;
+}
+.cmntr p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -20px 0 0 20px;
+}
+#sharer{
+    height: 15px;
+    width:  55px;
+    float: right;
+    margin: 5px 0 0 30px;
+    display: block;
+}
+#sharer p{
+    font-size: 80%;
+    color:rgb(58, 58, 58);
+    margin: -17px 0 0 20px ;
+}
+#sharer:hover{
+    color: blue;
+}
+.cmntr:hover{
+    color: blue;
+}
+/*----------------------Post Share Box----------------*/
+#comment{
+    height: 410px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px;
+    margin-top: -310px;
+    border-radius: 10px 10px 0 0;
+    display: none;
+    position: relative;
+    z-index: 4;
+}
+/*----------------------Post Shares profile----------------*/
+.nam{
+    height: 40px;
+    width: auto;
+    margin-top: 10px;
+}
+.prfl{
+    height: 33px;
+    width: 33px;
+    border-radius: 30px;
+    display: inline-block;
+    background-image: url("image/imoji.jpg");
+    background-size: cover;
+}
+.prflname{
+    height:40px;
+    width: 150px;
+    display: inline-block;
+}
+.prflname p{
+    font-size: smaller;
+    margin: -12px 0 0 0;
+}
+.prfbtn{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 3px;
+}
+.prfbtn:hover{
+    color: rgb(0, 0, 255);
+}
+/*---------------------Shares profile Symbol----------------*/
+#smbl{
+    height:30px;
+    width: 25px;
+    position: relative;
+    z-index: 5;
+    float: right;
+    margin-top: -335px;
+}
+#smbl:hover{
+    color: blue;
+}
+/*----------------------Text Area----------------*/
+.area{
+    height:60px;
+    width:260px;
+    border: none;
+    margin-top: 10px;
+}
+.bnt{
+    color: whitesmoke;
+   padding: 5px;
+   font-size:smaller;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(71, 71, 255);
+   margin: 0 0 0 190px;
+}
+/*----------------------Post Share options----------------*/
+.now{
+    height: 35px;
+    width: auto;
+    border:none;
+}
+.ystory{
+    height: 40px;
+    width: auto;
+    border-top: 1px solid rgb(139, 139, 139);
+}
+.fa-circle-plus{
+    margin: 19px 0 0 5px;
+}
+.ystory p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*----------------------Post Share to your story----------------*/
+.pstory{
+    height: 40px;
+    width: auto;
+}
+.fa-circle-plus{
+    margin: 19px 0 0 5px;
+    color: rgb(68, 68, 255);
+}
+.pstory p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*----------------------Post Send to Messenger---------------*/
+.smessenger{
+    height: 40px;
+    width: auto;
+}
+.fa-message{
+    margin: 19px 0 0 5px;
+    color: rgb(68, 68, 255);
+}
+.smessenger p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*----------------------Post Share to group---------------*/
+.sgroup{
+    height: 40px;
+    width: auto;
+}
+.fa-people-group{
+    margin: 19px 0 0 5px;
+    color: rgb(68, 68, 255);
+}
+.sgroup p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*----------------------Post Share to Page---------------*/
+.spage{
+    height: 40px;
+    width:200px;
+}
+.fa-font-awesome{
+    margin: 19px 0 0 5px;
+    color: rgb(68, 68, 255);
+}
+.spage p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}
+/*----------------------Post Share More Options---------------*/
+.moption{
+    height: 40px;
+    width: auto;
+}
+.fa-group-arrows-rotate{
+    margin: 19px 0 0 5px;
+    color: rgb(68, 68, 255);
+}
+.moption p{
+    margin: -19px 0 0 35px;
+    font-size: small;
+    font-family:Sans-serif;
+}

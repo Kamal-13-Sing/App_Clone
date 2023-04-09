@@ -1,0 +1,211 @@
+/*-------------------------Mbile screen body ----------------*/
+.mobile{
+    border: 1px solid black;
+    height: 597px;
+    width: 276px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    box-shadow: 1px 1px 5px;
+}
+/*-------------------------screen----------------*/
+.screentop{
+    border: 1px solid black;
+    height: 35px;
+    width: 275px;
+    margin: auto;
+    border-radius: 33px 33px 0 0;
+    border-bottom: none;
+}
+.screenbody{
+    height: 560px;
+    width: 275px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: auto;
+}
+
+/*--------------------Notch----------------------*/
+.notch{
+    height: 20px;
+    width: 110px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius:  0 0 13px 13px;
+    background-color: black;
+    position:sticky;
+}
+.cam{
+    height: 16px;
+    width: 16px;
+    margin: 2px 0 0 80px;
+    background-image: url("image/camera.png");
+    background-size: cover;
+}
+/*--------------------Time----------------------*/
+.time{
+    height: 20px;
+    width: 70px;
+    border-radius:15px 0 0 0;
+    margin:-20px 0 0 12px;
+}
+.time p{
+    font-size:smaller;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+/*--------------------Power----------------------*/
+.power{
+    height: 20px;
+    width: 70px;
+    margin: -20px 13px 0 0;
+    float: right;
+}
+.tower{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+}
+.wifi{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+}
+.battery{
+    height: 20px;
+    width: 19px;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    margin: 0 0 0 -3px;
+    border-radius: 0 5px 0 0;
+}
+/*---------------------Screen facebook login-------------------*/
+.login{
+    height:50px;
+    width: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+.fa-facebook{
+    color: blue;
+}
+
+/*---------------------Screen facebook Id -------------------*/
+#fbid{
+    height:50px;
+    width: 240px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+#fbid img{
+    height:50px;
+    width: 50px;
+}
+#fbid p{
+    margin: -40px 0 0 60px;
+    cursor:pointer;
+}
+.dot{
+    height:20px;
+    width: 10px;
+    margin: -15px 0 0 240px;
+}
+.notify{
+    height:20px;
+    width: 20px;
+    margin: -35px 0 0 33px;
+}
+.fa-circle-exclamation{
+    color: red;
+}
+/*------------------Login to other account-------------------*/
+.other{
+    height:25px;
+    width: 170px;
+    margin: 15px 0 0 17px;
+    cursor:pointer;
+}
+.other p{
+    font-size: small;
+    margin: -17px 0 0 23px;
+    color: blue;
+}
+.fa-square-plus{
+    color: blue;
+}
+/*------------------find your account-------------------*/
+.find{
+    height:60px;
+    width: 160px;
+    margin:0 0 0 17px;
+    cursor:pointer;
+}
+.find p{
+    font-size: small;
+    margin: -17px 0 0 23px;
+    color: blue;
+}
+.fa-magnifying-glass-plus{
+    color: blue;
+}
+/*------------------create new Facebook account-------------------*/
+.create{
+    height:30px;
+    width: 240px;
+    margin: 190px 0 20px 16px;
+    border-radius: 5px;
+    background-color: rgb(168, 168, 255);
+    text-align: center;
+    border: 1px solid whitesmoke;
+    cursor:pointer;
+}
+.create p{
+    font-size: 70%;
+    font-family: sans-serif;
+    color: blue;
+}
+/*---------------------Screen Footer----------------------*/
+.footer{
+    height: 32px;
+    width: 274px;
+    border: 1px solid black;
+    border-radius: 0 0 33px 33px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 5px;
+}
+.cach{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 3px 0 0 60px;
+}
+.fa-square{
+    color: rgb(189, 189, 189);
+}
+.hom{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-circle{
+    color: rgb(189, 189, 189);
+    margin: 6px 0 0 5px ;
+}
+.back{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.fa-square-caret-left{
+    color: rgb(189, 189, 189);
+    margin-left: 5px ;
+}
